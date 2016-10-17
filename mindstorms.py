@@ -12,13 +12,13 @@ def draw_art():
     window.bgcolor("tan")
 
     brad = turtle.Turtle()  
-    draw_square(brad)
 
-    angie = turtle.Turtle()
-    angie.shape("arrow")
-    angie.color("blue")
+    for i in range(1,37):
+        draw_square(brad)
+        brad.right(10)
+
     
-    angie.circle(100)
+    
 
     window.exitonclick()
 
